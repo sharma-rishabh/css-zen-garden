@@ -1,0 +1,213 @@
+
+/* whole body */
+
+* {
+    margin: 0;
+    padding: 0;  
+}
+
+abbr {
+    text-decoration: none;
+    border-bottom: 1px solid #1565C0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.page-wrapper {
+    font-size: 16px;
+    line-height: 2em;
+    font-weight: 300;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    word-spacing: 0.05em;
+    background-color: #BBDEFB;
+}
+
+/* header */
+
+header abbr {
+    border-bottom: 1px solid white;
+}
+
+.intro header {
+    padding: 1.5em 5em;
+    height: 230px;
+    background-color: #0D47A1;
+    color: white;
+    box-sizing: border-box;
+}
+
+.intro header>h1 {
+    font-size: 90px;
+    line-height: 1.4em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.intro header>h2 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 1.4em;
+    padding-left: 0.2em;
+}
+
+/* sidebar */
+
+.sidebar {
+    position: absolute;
+    right: 0px;
+    top: 230px;
+    width: 30%;
+}
+
+.wrapper h3 {
+    display: none;
+}
+
+.wrapper {
+    padding: 2.5em 5em;
+    color: #64B5F6;
+}
+
+.wrapper>div{
+    padding-bottom: 7em;
+}
+
+.design-selection nav li,
+.zen-resources li {
+    border-bottom: 1px solid #64B5F6;
+    padding: 1.5em 0em;
+    width: 80%;
+}
+
+.design-selection nav li:first-child {
+    padding-top: 0;
+}
+
+.design-selection li {
+    color: #0D47A1;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.design-selection li a {
+    color: #1565C0;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.design-selection li a:first-child,
+.zen-resources li a{
+    display: block;
+    font-size: 20px;
+    color: #0D47A1;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.design-selection li a:hover,
+.zen-resources li a:hover{
+    color: #1976D2;
+}
+
+.design-archives ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.design-archives li a {
+    display: block;
+    padding: 0.6em;
+    width: 80%;
+    border: 1px solid #1E88E5;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.281);
+    text-transform: uppercase;
+    color: #0D47A1;
+    font-size: 20px;
+    text-align: center;
+}
+
+.design-archives li a:hover {
+    background-color: #1E88E5;
+    color: #E3F2FD;
+}
+
+/* main content */
+
+.intro a,
+.main>div a {
+    color: #0D47A1;
+}
+
+.intro a:hover,
+.main div a:hover{
+    border-bottom: 1px solid #0D47A1;
+}
+
+.intro>div,
+.main>div {
+    width: 70%;
+    padding: 1.8em 5em;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.intro>div, 
+.main .explanation,
+.main .requirements {
+    background-color: #E3F2FD;
+} 
+
+.intro>.summary{
+    padding-top: 2.5em;
+}
+
+.main .requirements {
+    padding-bottom: 2.5em;
+}
+
+.page-wrapper h3 {
+    padding-bottom: 0.8em;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* footer */
+
+.main>footer {
+    background-color: #0D47A1;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10em;
+}
+
+.main>footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5em;
+    font-size: 30px;
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    color: white;
+    box-sizing: border-box;
+}
+
+footer a:hover {
+    background-color: hsl(205deg 87% 84% / 80%);
+    color: rgba(0, 0, 0, 0.808);
+    border: none;
+}
